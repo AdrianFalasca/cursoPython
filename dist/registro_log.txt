@@ -1,0 +1,141 @@
+************************************************************************
+Registro del alta, baja y modificación en la fecha: 23/02/2022 01:15:56
+************************************************************************
+
+Llamada 0 al metodo 'alta'. Fecha: 23/02/2022 01:15:56 
+Id: 
+Conector: Conjunción
+Simbolo: ∧
+Informacion: La conjunción de dos proposiciones es verdadera cuando las dos son verdaderas.
+ 
+
+
+Llamada 1 al metodo 'alta'. Fecha: 23/02/2022 01:17:08 
+Id: 
+Conector: Negación
+Simbolo: ¬
+Informacion: Si la proposición p es verdadera (V) se tiene que ¬p es (F),
+ 
+
+
+Llamada 2 al metodo 'alta'. Fecha: 23/02/2022 01:18:18 
+Id: 
+Conector: Disyunción
+Simbolo: ∨
+Informacion: La disyunción de dos proposiciones es falsa cuando las dos son falsas, en los demás casos es
+verdadera.
+ 
+
+
+Llamada 3 al metodo 'alta'. Fecha: 23/02/2022 01:19:01 
+Id: 
+Conector: Condicional
+Simbolo: →
+Informacion: El condicional únicamente es falso cuando el antecedente es verdadero y el consecuente falso,
+en todos los demás casos es verdadero
+ 
+
+
+Llamada 0 al metodo 'modificar'. Fecha: 23/02/2022 01:19:59 
+Id: 4
+Conector: Condicional
+Simbolo: →
+Informacion: El condicional únicamente es falso cuando el antecedente es verdadero y el consecuente falso,
+en todos los demás casos es verdadero.
+El condicional relaciona dos proposiciones, cada una de ellas tiene dos valores de verdad posibles (F o V)
+
+ 
+
+
+Llamada 4 al metodo 'alta'. Fecha: 23/02/2022 01:20:47 
+Id: 
+Conector: Bicondicional
+Simbolo: ↔
+Informacion: El sí y solo sí, es verdadero cuando los dos proposiciones tienen el mismo valor de verdad.
+ 
+
+
+Llamada 5 al metodo 'alta'. Fecha: 23/02/2022 01:22:04 
+Id: 
+Conector: Disyunción excluyente
+Simbolo: ⊻
+Informacion: La disyunción excluyente (o bien . . . o bien) de dos proposiciones es verdadera cuando las dos
+proposiciones tienen valores de verdad contrarios.
+ 
+
+
+Llamada 0 al metodo 'baja'. Fecha: 23/02/2022 01:22:15 
+Id: 6
+Conector: Disyunción excluyente
+Simbolo: ⊻
+Informacion: La disyunción excluyente (o bien . . . o bien) de dos proposiciones es verdadera cuando las dos
+proposiciones tienen valores de verdad contrarios.
+
+ 
+************************************************************************
+Registro del alta, baja y modificación en la fecha: 23/02/2022 01:25:54
+************************************************************************
+
+Llamada 0 al metodo 'modificar'. Fecha: 23/02/2022 01:25:54 
+Id: 5
+Conector: Bicondicional
+Simbolo: ↔
+Informacion: El sí y solo sí, es verdadero cuando los dos proposiciones tienen el mismo valor de verdad.
+
+ 
+************************************************************************
+Registro del alta, baja y modificación en la fecha: 23/02/2022 01:36:40
+************************************************************************
+
+Llamada 0 al metodo 'modificar'. Fecha: 23/02/2022 01:36:40 
+Id: 1
+Conector: Conjunción
+Simbolo: ∧
+Informacion: La conjunción de dos proposiciones es verdadera cuando las dos son verdaderas.
+
+ 
+************************************************************************
+Registro del alta, baja y modificación en la fecha: 06/12/2024 03:06:19
+************************************************************************
+
+Llamada 0 al metodo 'alta'. Fecha: 06/12/2024 03:06:19 
+Id: 
+Conector: a
+Simbolo: ¬
+Informacion: 
+ 
+
+
+Llamada 1 al metodo 'alta'. Fecha: 06/12/2024 03:06:48 
+Id: 
+Conector: Negacion
+Simbolo: ¬
+Informacion: 
+ 
+
+
+Llamada 2 al metodo 'alta'. Fecha: 06/12/2024 03:06:54 
+Id: 
+Conector: Negacion
+Simbolo: ¬
+Informacion: asfafasfas
+ 
+
+
+Llamada 0 al metodo 'modificar'. Fecha: 06/12/2024 03:07:31 
+Id: 6
+Conector: Negacion
+Simbolo: ¬
+Informacion: asfafasfasasfa23532
+
+ 
+
+
+Llamada 0 al metodo 'baja'. Fecha: 06/12/2024 03:07:41 
+Id: 6
+Conector: Negacion
+Simbolo: ¬
+Informacion: asfafasfasasfa23532
+
+
+ 

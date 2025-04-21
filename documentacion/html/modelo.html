@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module modelo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>modelo</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cuser%5Cdesktop%5Cfalasca%5Cmvc%5Cmodelo.py">c:\users\user\desktop\falasca\mvc\modelo.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="tkinter.messagebox.html">tkinter.messagebox</a><br>
+</td><td width="25%" valign=top><a href="re.html">re</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="observador.html#Observado">observador.Observado</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="modelo.html#Crud">Crud</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Crud">class <strong>Crud</strong></a>(<a href="observador.html#Observado">observador.Observado</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Clase&nbsp;que&nbsp;contiene&nbsp;los&nbsp;métodos:&nbsp;alta,&nbsp;modificar,&nbsp;consultar&nbsp;y&nbsp;baja.<br>
+Y&nbsp;otros&nbsp;para&nbsp;salir,&nbsp;borrar&nbsp;campos&nbsp;y&nbsp;mostrar.<br>
+Hereda&nbsp;de&nbsp;la&nbsp;clase&nbsp;<a href="observador.html#Observado">Observado</a>&nbsp;el&nbsp;método&nbsp;notificar&nbsp;utilizado&nbsp;en&nbsp;el&nbsp;<br>
+método&nbsp;consultar&nbsp;de&nbsp;la&nbsp;clase&nbsp;<a href="#Crud">Crud</a>.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="modelo.html#Crud">Crud</a></dd>
+<dd><a href="observador.html#Observado">observador.Observado</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Crud-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Constructor&nbsp;que&nbsp;contiene&nbsp;la&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;Regex&nbsp;y&nbsp;un&nbsp;contador.</tt></dd></dl>
+
+<dl><dt><a name="Crud-alta"><strong>alta</strong></a> = envoltura(*arg, **kwarg)</dt><dd><tt>Función&nbsp;que&nbsp;decora&nbsp;a&nbsp;los&nbsp;métodos:&nbsp;alta,&nbsp;baja&nbsp;y&nbsp;modificar.<br>
+Los&nbsp;registra&nbsp;en&nbsp;un&nbsp;archivo&nbsp;txt.</tt></dd></dl>
+
+<dl><dt><a name="Crud-baja"><strong>baja</strong></a> = envoltura(*arg, **kwarg)</dt><dd><tt>Función&nbsp;que&nbsp;decora&nbsp;a&nbsp;los&nbsp;métodos:&nbsp;alta,&nbsp;baja&nbsp;y&nbsp;modificar.<br>
+Los&nbsp;registra&nbsp;en&nbsp;un&nbsp;archivo&nbsp;txt.</tt></dd></dl>
+
+<dl><dt><a name="Crud-borrar_campos"><strong>borrar_campos</strong></a>(self, *arg)</dt><dd><tt>Método&nbsp;para&nbsp;borrar&nbsp;campos</tt></dd></dl>
+
+<dl><dt><a name="Crud-consultar"><strong>consultar</strong></a>(self, conector, simbolo, informacion_text, id, top)</dt><dd><tt>Método&nbsp;para&nbsp;consultar&nbsp;la&nbsp;tabla&nbsp;utilizando&nbsp;el&nbsp;id.<br>
+Filtra&nbsp;y&nbsp;obtiene&nbsp;los&nbsp;datos&nbsp;con&nbsp;ORM.<br>
+Utiliza&nbsp;el&nbsp;método&nbsp;notificar&nbsp;de&nbsp;la&nbsp;clase&nbsp;padre&nbsp;de&nbsp;<a href="#Crud">Crud</a>(<a href="observador.html#Observado">Observado</a>)<br>
+&nbsp;y&nbsp;le&nbsp;pasa&nbsp;parámetros.</tt></dd></dl>
+
+<dl><dt><a name="Crud-decorador"><strong>decorador</strong></a>(func)</dt></dl>
+
+<dl><dt><a name="Crud-modificar"><strong>modificar</strong></a> = envoltura(*arg, **kwarg)</dt><dd><tt>Función&nbsp;que&nbsp;decora&nbsp;a&nbsp;los&nbsp;métodos:&nbsp;alta,&nbsp;baja&nbsp;y&nbsp;modificar.<br>
+Los&nbsp;registra&nbsp;en&nbsp;un&nbsp;archivo&nbsp;txt.</tt></dd></dl>
+
+<dl><dt><a name="Crud-mostrar"><strong>mostrar</strong></a>(self, tree)</dt><dd><tt>Método&nbsp;para&nbsp;mostrar&nbsp;todos&nbsp;los&nbsp;registros&nbsp;de&nbsp;la&nbsp;tabla</tt></dd></dl>
+
+<dl><dt><a name="Crud-salir"><strong>salir</strong></a>(self, root)</dt><dd><tt>Método&nbsp;para&nbsp;salir&nbsp;de&nbsp;la&nbsp;aplicación.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="observador.html#Observado">observador.Observado</a>:<br>
+<dl><dt><a name="Crud-agregar"><strong>agregar</strong></a>(self, obj)</dt></dl>
+
+<dl><dt><a name="Crud-notificar"><strong>notificar</strong></a>(self, *args)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="observador.html#Observado">observador.Observado</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="observador.html#Observado">observador.Observado</a>:<br>
+<dl><dt><strong>observadores</strong> = []</dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>DJANGO_MAP</strong> = {'eq': &lt;built-in function eq&gt;, 'lt': &lt;built-in f...gexp': &lt;function &lt;lambda&gt; at 0x000001D042332CA0&gt;}<br>
+<strong>END</strong> = 'end'<br>
+<strong>EXCLUDED</strong> = &lt;peewee._Namespace object&gt;<br>
+<strong>JOIN</strong> = {'INNER': 'INNER JOIN', 'LEFT_OUTER': 'LEFT OUTE...: 'LATERAL', 'LEFT_LATERAL': 'LEFT JOIN LATERAL'}<br>
+<strong>OP</strong> = {'AND': 'AND', 'OR': 'OR', 'ADD': '+', 'SUB': '-...REGEXP', 'CONCAT': '||', 'BITWISE_NEGATION': '~'}<br>
+<strong>db</strong> = &lt;peewee.SqliteDatabase object&gt;<br>
+<strong>fn</strong> = &lt;peewee.Function object&gt;</td></tr></table>
+</body></html>

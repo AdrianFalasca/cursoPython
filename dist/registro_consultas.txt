@@ -1,0 +1,72 @@
+******************************************************
+Registro de consultas en la fecha: 23/02/2022 01:19:21
+******************************************************
+
+Fecha: 23/02/2022 01:19:21
+Id: 4
+Conector: Condicional
+Simbolo: →
+Informacion: El condicional únicamente es falso cuando el antecedente es verdadero y el consecuente falso,
+en todos los demás casos es verdadero
+
+
+
+Fecha: 23/02/2022 01:22:13
+Id: 6
+Conector: Disyunción excluyente
+Simbolo: ⊻
+Informacion: La disyunción excluyente (o bien . . . o bien) de dos proposiciones es verdadera cuando las dos
+proposiciones tienen valores de verdad contrarios.
+
+******************************************************
+Registro de consultas en la fecha: 23/02/2022 01:24:57
+******************************************************
+
+Fecha: 23/02/2022 01:24:57
+Id: 5
+Conector: Bicondicional
+Simbolo: ↔
+Informacion: El sí y solo sí, es verdadero cuando los dos proposiciones tienen el mismo valor de verdad.
+
+******************************************************
+Registro de consultas en la fecha: 23/02/2022 01:34:36
+******************************************************
+
+Fecha: 23/02/2022 01:34:36
+Id: 4
+Conector: Condicional
+Simbolo: →
+Informacion: El condicional únicamente es falso cuando el antecedente es verdadero y el consecuente falso,
+en todos los demás casos es verdadero.
+El condicional relaciona dos proposiciones, cada una de ellas tiene dos valores de verdad posibles (F o V)
+
+
+******************************************************
+Registro de consultas en la fecha: 23/02/2022 01:36:38
+******************************************************
+
+Fecha: 23/02/2022 01:36:38
+Id: 1
+Conector: Conjunción
+Simbolo: ∧
+Informacion: La conjunción de dos proposiciones es verdadera cuando las dos son verdaderas.
+
+******************************************************
+Registro de consultas en la fecha: 06/12/2024 03:07:22
+******************************************************
+
+Fecha: 06/12/2024 03:07:22
+Id: 6
+Conector: Negacion
+Simbolo: ¬
+Informacion: asfafasfas
+
+
+
+Fecha: 06/12/2024 03:07:39
+Id: 6
+Conector: Negacion
+Simbolo: ¬
+Informacion: asfafasfasasfa23532
+
+
